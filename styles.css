@@ -1,3 +1,23 @@
+header {
+  background-color: darkorchid;
+  text-align: center;
+}
+
 h1 {
-    color: blue;
-  }
+  color: blue;
+}
+
+div { 
+  width:50%;
+  margin: auto;
+  background-color: gray;
+  padding: 10px;
+}
+
+
+.imghome {
+  width:150px;
+  height:100px;
+  border: 2px solid #ddd;
+  
+}
