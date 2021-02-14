@@ -1,3 +1,21 @@
+
+div { 
+  width:50%;
+  margin: auto;
+  background-color: gray;
+  padding: 10px;
+  overflow: auto;
+}
+.topbackground {
+  background-image: url('./Pictures/Main_Pano.jpg');
+  background-repeat: no-repeat;
+  background-size:cover
+  background-attachment: fixed;
+  overflow: auto;
+  width: 100%;
+  margin: auto;
+  }
+
 header {
   background-color: darkorchid;
   text-align: center;
@@ -7,13 +25,7 @@ h1 {
   color: blue;
 }
 
-div { 
-  width:50%;
-  margin: auto;
-  background-color: gray;
-  padding: 10px;
-  overflow: auto;
-}
+
 
 p {
 text-align: justify;
