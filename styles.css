@@ -1,5 +1,4 @@
-
-div { 
+.centrepage { 
   width:50%;
   height: auto;
   margin: auto;
@@ -7,15 +6,13 @@ div {
   padding: 0px;
   overflow: auto;
 }
-.topbackground {
-  background-image: url('./Pictures/Main_Pano.jpg');
-  background-repeat: no-repeat;
-  background-size:cover
-  background-attachment: fixed;
-  overflow: auto;
+
+.mainbackground {
+  background: url(./Pictures/Main_Pano.jpg);
   width: 100%;
-  margin: auto;
-  }
+  background-size: cover;
+  height: 400px;"
+}
 
 header {
   background-color: darkorchid;
@@ -23,7 +20,7 @@ header {
 }
 
 h1 {
-  color: blue;
+  text-align: center;
 }
 
 
