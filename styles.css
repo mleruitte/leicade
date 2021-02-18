@@ -14,29 +14,19 @@
   height: 400px;
 }
 
-header {
-  background-color: darkorchid;
-  text-align: center;
-}
-
 h1 {
   text-align: center;
 }
 
-
-
 p {
-text-align: justify;
-padding: 10px;
-
-
-
+  text-align: justify;
+  padding: 10px;
 }
 
 .imghome {
-  width:150px;
-  height:100px;
-  border: 2px solid #ddd;
+    width:150px;
+    height:100px;
+    border: 2px solid #ddd;
   }
 
   .menuul {
