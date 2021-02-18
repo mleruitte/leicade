@@ -1,9 +1,10 @@
 
-div iframe{ 
+div { 
   width:50%;
+  height: auto;
   margin: auto;
   background-color: gray;
-  padding: 10px;
+  padding: 0px;
   overflow: auto;
 }
 .topbackground {
@@ -29,6 +30,8 @@ h1 {
 
 p {
 text-align: justify;
+padding: 20px;
+
 }
 
 .imghome {
