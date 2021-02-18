@@ -27,7 +27,9 @@ h1 {
 
 p {
 text-align: justify;
-padding: 20px;
+padding: 10px;
+
+
 
 }
 
@@ -37,7 +39,7 @@ padding: 20px;
   border: 2px solid #ddd;
   }
 
-  ul {
+  .menuul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -45,11 +47,11 @@ padding: 20px;
     background-color: #333;
   }
   
-  li {
+  .menuli {
     float: left;
   }
   
-  li a {
+  .menuli a {
     display: block;
     color: white;
     text-align: center;
@@ -57,6 +59,6 @@ padding: 20px;
     text-decoration: none;
   }
   
-  li a:hover {
+  .menuli a:hover {
     background-color: #111;
   }
