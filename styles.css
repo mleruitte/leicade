@@ -61,5 +61,8 @@ p {
   .tabletarifs tr{
     border: solid 2px white;    
     background-color: darkred;
+  }
 
+  p.contact {
+    text-align: center;
   }
