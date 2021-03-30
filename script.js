@@ -1,4 +1,3 @@
-
     var tofetch = document.getElementById("tofetch");
     fetch('test2.html')
     .then((Response) => {
