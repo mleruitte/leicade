@@ -1,5 +1,5 @@
     var tofetch = document.getElementById("tofetch");
-    fetch('test2.html')
+    fetch('toppage.html')
     .then((Response) => {
         return Response.text();
     })
