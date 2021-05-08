@@ -27,16 +27,8 @@ body {
   background: url(./Pictures/Main_Pano.jpg);
   width: 100%;
   background-size: cover;
-  height: 400px;
+  height: 500px;
   position: relative;
-}
-
-
-iframe {
-  padding:0px;
-  border: none;
-  height: 600px;
-  width: 100%;
 }
 
 h1 {
