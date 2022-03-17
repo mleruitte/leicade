@@ -19,7 +19,7 @@ body {
   height: auto;
   margin: auto;
   background-color: gray;
-  padding: 0px;
+  padding: 0px 30px;
   overflow: auto;
 }
 
