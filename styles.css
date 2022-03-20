@@ -17,16 +17,16 @@ body {
 .centrepage { 
   width:50%;
   height: auto;
-  margin: 0px;
+  margin: auto;
   background-color: gray;
-  padding: 0px 80px;
+  padding: 0px 100px;
   overflow: auto;
 }
 
 .centrepage-menu { 
   width:50%;
   height: auto;
-  margin: 0px;
+  margin: auto;
   background-color: gray;
   padding: 0px;
   overflow: auto;
