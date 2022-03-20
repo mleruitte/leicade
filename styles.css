@@ -19,7 +19,16 @@ body {
   height: auto;
   margin: auto;
   background-color: gray;
-  padding: 0px 30px;
+  padding: 0px 50px;
+  overflow: auto;
+}
+
+.centrepage-menu { 
+  width:50%;
+  height: auto;
+  margin: auto;
+  background-color: gray;
+  padding: 0px;
   overflow: auto;
 }
 
