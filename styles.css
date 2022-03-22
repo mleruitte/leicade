@@ -15,7 +15,7 @@ body {
 }
 
 .centrepage { 
-  width:40%;
+  width:50%;
   height: auto;
   margin: auto;
   background-color: gray;
@@ -24,7 +24,7 @@ body {
 }
 
 .centrepage-menu { 
-  width:40%;
+  width:50%;
   height: auto;
   margin: auto;
   background-color: #333;
