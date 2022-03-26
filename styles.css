@@ -61,7 +61,7 @@ p {
   .menuul {
     width:50%;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0px;
     overflow: hidden;
     background-color: #333;
