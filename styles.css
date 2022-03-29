@@ -105,6 +105,8 @@ p {
     text-align: center;
     padding: 0;
     text-decoration: none;
+    text-align: center;
+    list
   }
   
   .dropdown-content {
@@ -116,9 +118,26 @@ p {
     z-index: 1;
   }
 
+  .dropdown-content-lang {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content-lang a {
+    color: black;
+    padding: 0px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
