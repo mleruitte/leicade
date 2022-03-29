@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./galerie.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="tofetch"></div>
+
+<div class="centrepage">
+
+<h1>Les extérieurs</h1>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 12</div>
+  <a href="./Pictures/galerie-ext05.jpg"><img src="./Pictures/galerie-ext05.jpg" style="width:100%"></a>
+  <div class="text">Terrasse supérieure</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 12</div>
+  <a href="./Pictures/galerie-ext06.jpg"><img src="./Pictures/galerie-ext06.jpg" style="width:100%"></a>
+  <div class="text">Accès villa</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 12</div>
+  <a href="./Pictures/galerie-ext07.jpg"><img src="./Pictures/galerie-ext07.jpg" style="width:100%"></a>
+  <div class="text">Vue jardin</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4 / 12</div>
+    <a href="./Pictures/galerie-ext08.jpg"><img src="./Pictures/galerie-ext08.jpg" style="width:100%"></a>
+    <div class="text">Piscine et terrasse inférieure</div>
+  </div>
+  
+<div class="mySlides fade">
+    <div class="numbertext">5 / 12</div>
+    <a href="./Pictures/galerie-ext09.jpg"><img src="./Pictures/galerie-ext09.jpg" style="width:100%"></a>
+    <div class="text">Piscine et terrasse inférieure</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">6 / 12</div>
+    <a href="./Pictures/galerie-ext10.jpg"><img src="./Pictures/galerie-ext10.jpg" style="width:100%"></a>
+    <div class="text">La piscine</div>
+</div>
+  
+<div class="mySlides fade">
+    <div class="numbertext">7 / 12</div>
+    <a href="./Pictures/galerie-ext11.jpg"><img src="./Pictures/galerie-ext11.jpg" style="width:100%"></a>
+    <div class="text">Vue de la terrasse supérieure</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">8 / 12</div>
+    <a href="./Pictures/galerie-ext12.jpg"><img src="./Pictures/galerie-ext12.jpg" style="width:100%"></a>
+    <div class="text">Villa de nuit</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">9 / 12</div>
+    <a href="./Pictures/galerie-ext13.jpg"><img src="./Pictures/galerie-ext13.jpg" style="width:100%"></a>
+    <div class="text">L'apéro...</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">10 / 12</div>
+    <a href="./Pictures/galerie-ext14.jpg"><img src="./Pictures/galerie-ext14.jpg" style="width:100%"></a>
+    <div class="text">Vue aérienne</div>
+</div>
+
+<div class="mySlides fade">
+    <div class="numbertext">11 / 12</div>
+    <a href="./Pictures/galerie-ext15.jpg"><img src="./Pictures/galerie-ext15.jpg" style="width:100%"></a>
+    <div class="text">Vue aérienne</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">12 / 12</div>
+  <a href="./Pictures/galerie-ext16.jpg"><img src="./Pictures/galerie-ext16.jpg" style="width:100%"></a>
+  <div class="text">Pool house</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span> 
+  <span class="dot" onclick="currentSlide(9)"></span> 
+  <span class="dot" onclick="currentSlide(10)"></span> 
+  <span class="dot" onclick="currentSlide(11)"></span> 
+  <span class="dot" onclick="currentSlide(12)"></span>
+</div>
+<br>
+  </div>
+
+<div class="centrepage-menu" style="height: 40px;""></div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html> 
