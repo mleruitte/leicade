@@ -79,7 +79,7 @@ p {
   .menuul-lang {
     position: absolute;
     right: 0;
-    margin 0;
+    margin: 0; 
     height: 40px;
     width: 80px;
     list-style-type: none;
