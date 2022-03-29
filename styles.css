@@ -23,7 +23,7 @@ body {
   overflow: auto;
 }
 
-.centrepage-lang { 
+.centrepagelang { 
   width: 40px;
   height: auto;
   margin: auto;
@@ -70,6 +70,7 @@ p {
   .menuullang {
     position: absolute;
     right: 0;
+    height: auto;
     width: 40px;
     list-style-type: none;
     margin: auto;
