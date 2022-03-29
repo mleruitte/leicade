@@ -80,7 +80,7 @@ p {
     width: 100px;
     height: 40px;
     list-style-type: none;
-    margin: auto;
+    float: right;
     padding: 0px;
     overflow: hidden;
     background-color: #333;
