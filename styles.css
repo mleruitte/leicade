@@ -23,8 +23,8 @@ body {
   overflow: auto;
 }
 
-.centrepage-menu { 
-  width:100%;
+.centrepage-lang { 
+  width: 40px;
   height: auto;
   margin: auto;
   background-color: #333;
