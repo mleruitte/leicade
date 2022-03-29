@@ -24,7 +24,7 @@ body {
 }
 
 .centrepage-menu { 
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: auto;
   background-color: #333;
@@ -76,13 +76,12 @@ p {
     background-color: #333;
   }
 
-  .menuullang {
+  .menuul-lang {
     position: absolute;
     right: 0;
-    height: auto;
-    width: 40px;
+    height: 40px;
+    width: 80px;
     list-style-type: none;
-    margin: auto;
     padding: 0px;
     overflow: hidden;
     background-color: #333;
