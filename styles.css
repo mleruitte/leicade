@@ -77,6 +77,16 @@ p {
     height: 260px;
     
   }
+
+  .langmenu {
+    width: 300px;
+    height: 100px;
+    background-color:bisque;
+    text-align: center;
+    
+
+  }
+  
   .menuul {
     width:50%;
     list-style-type: none;
