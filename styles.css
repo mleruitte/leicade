@@ -98,7 +98,7 @@ p {
 
   .menuul-lang {
     width: 100px;
-    height: 40px;
+    
     list-style-type: none;
     float: right;
     padding: 0px;
@@ -124,7 +124,7 @@ p {
     color: white;
     text-decoration: none;
     text-align: center;
-    margin: auto;  
+    padding: 10px 0px;
   }
   
   .dropdown-content {
