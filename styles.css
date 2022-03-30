@@ -94,7 +94,7 @@ p {
     padding: 0px;
     overflow: hidden;
     background-color: #333;
-    margin:0px;
+    margin:auto;
   }
 
   .menuli {
@@ -114,7 +114,6 @@ p {
     height: 40px;
     color: white;
     text-align: center;
-    padding-top: 5px;
     text-decoration: none;
     text-align: center;
     margin: auto;  
