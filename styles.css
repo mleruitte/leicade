@@ -91,6 +91,10 @@ p {
 
   .menuul-lang {
     width: 100px;
+<<<<<<< HEAD
+=======
+    height: 40px;
+>>>>>>> parent of 902f2af (x)
     list-style-type: none;
     margin: auto;
     float: right;
@@ -116,7 +120,11 @@ p {
     color: white;
     text-decoration: none;
     text-align: center;
+<<<<<<< HEAD
     padding: 9px 0px;
+=======
+    margin: auto;  
+>>>>>>> parent of 902f2af (x)
   }
   
   .dropdown-content {
