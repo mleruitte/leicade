@@ -111,6 +111,7 @@ p {
 
   .menuli-lang a {
     display: block;
+    height: auto;
     color: white;
     text-decoration: none;
     text-align: center;
