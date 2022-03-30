@@ -109,7 +109,7 @@ p {
     text-decoration: none;
   }
 
-  .menuli-lang a {
+  .menuli-lang {
     display: block;
     height: auto;
     color: white;
