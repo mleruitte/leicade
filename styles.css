@@ -99,6 +99,10 @@ p {
   .menuli {
     float: left;
   }
+
+  .menuli-lang {
+    float: left;
+  }
   
   .menuli a {
     display: block;
@@ -160,6 +164,10 @@ p {
 }
   
   .menuli a:hover {
+    background-color: #111;
+  }
+
+  .menuli-lang a:hover {
     background-color: #111;
   }
 
