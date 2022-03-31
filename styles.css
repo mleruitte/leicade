@@ -88,10 +88,9 @@ p {
   }
 
   .menuul-lang {
-    width: 100px;
+    width:50%;
     list-style-type: none;
     margin: auto;
-    float: right;
     padding: 0px;
     overflow: hidden;
     background-color: #333;
@@ -109,12 +108,12 @@ p {
     text-decoration: none;
   }
 
-  .menuli-lang {
+  .menuli-lang a {
     display: block;
     color: white;
-    text-decoration: none;
     text-align: center;
-    padding: 9px 0px;
+    padding: 14px 16px;
+    text-decoration: none;
   }
   
   .dropdown-content {
@@ -130,7 +129,7 @@ p {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 100px;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     
@@ -146,10 +145,10 @@ p {
 
   .dropdown-content-lang a {
     color: black;
-    padding: 9px 0px;
+    padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: center;
+    text-align: left;
   }
  
 .dropdown:hover .dropdown-content {
@@ -165,6 +164,8 @@ p {
   }
 
   .dropdown-content a:hover {background-color: #f1f1f1;}
+
+  .dropdown-content-lang a:hover {background-color: #f1f1f1;}
 
   .tabletarifs {
     padding: 10px;
