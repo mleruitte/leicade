@@ -64,8 +64,15 @@ h1 {
 
 p {
   text-align: justify;
-  padding:  0px 10px 20px;
   margin: 0px;
+}
+
+.textright {
+  padding-left: 30px;
+}
+
+.textleft {
+  padding-right: 30px;
 }
 
 .imghome {
@@ -85,8 +92,15 @@ p {
     
   }
 
+  /* test flexbox /*
+  [class*="box"] {
+    flex-direction: column ;
+  }
+  
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
+  .box {flex-direction: row;} /* test flex */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
