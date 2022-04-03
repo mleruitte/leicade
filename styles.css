@@ -222,6 +222,7 @@ p {
     padding: 10px;
     color: white;
     width: 70%;
+    text-align: center;
   }
   .tabletarifs tr{
     border: solid 2px white;    
