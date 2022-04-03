@@ -78,7 +78,7 @@ p {
 .imghome {
     width:360px;
     height:240px;
-    border: 0px solid #ddd;
+    /*border: 0px solid #ddd;*/
   }
 
   [class*="col-"] {
@@ -92,7 +92,7 @@ p {
     
   }
 
-  /* test flexbox /*
+  /* test flexbox */
   [class*="box"] {
     flex-direction: column ;
   }
@@ -117,8 +117,6 @@ p {
 
   .section {
     min-height: 300px;
-    
-    
   }
   
   .menuul {
