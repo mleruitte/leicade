@@ -88,19 +88,19 @@ p {
 
   /* For mobile phones: */
   [class*="col-"] {
-    width: 100%;
-    
+    width: 100%;    
   }
 
-  /* test flexbox */
-  [class*="box"] {
-    flex-direction: column ;
+  [class*="textpadding"] {
+    padding-right: 0px;   
+    padding-left: 0px;
+    padding-top: 10px;   
+    padding-bottom: 10px;
   }
-  
+
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .box {flex-direction: row;} /* test flex */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
@@ -113,10 +113,13 @@ p {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  .textpaddingleft {padding: 0px 0px 0px 30px;}
+  .textpaddingright {padding: 0px 30px 0px 0px;}
+  
 }
 
   .section {
-    min-height: 300px;
+    min-height: 280px;
   }
   
   .menuul {
