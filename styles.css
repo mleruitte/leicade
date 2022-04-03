@@ -63,21 +63,14 @@ h1 {
 
 p {
   text-align: justify;
-  padding: 10px;
+  padding:  0px 10px 20px;
+  margin: 0px;
 }
 
 .imghome {
     width:360px;
     height:240px;
     border: 0px solid #ddd;
-  }
-
-  .imghome-right {
-    width:294px;
-    height:auto;
-    border: 0px solid #ddd;
-    /*float:left;*/
-/*    margin: auto;*/
   }
 
   [class*="col-"] {
@@ -88,6 +81,7 @@ p {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
+    padding-bottom: 20px;
   }
 
 @media only screen and (min-width: 768px) {
