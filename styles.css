@@ -91,6 +91,10 @@ p {
     width: 100%;    
   }
 
+  [class*="pagepadding"] {
+    padding: 0px 20px;    
+  }
+
   [class*="textpadding"] {
     padding-right: 0px;   
     padding-left: 0px;
@@ -115,6 +119,7 @@ p {
   .col-12 {width: 100%;}
   .textpaddingleft {padding: 0px 0px 0px 30px;}
   .textpaddingright {padding: 0px 30px 0px 0px;}
+  .pagepadding {padding: 0px 120px;}
   
 }
 
