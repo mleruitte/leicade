@@ -15,7 +15,7 @@ body {
 }
 
 .topbackground {
-  /*width: 100%;*/
+  width: 100%;
   background: url(./Pictures/TopBackground.jpg);
   background-size: cover;
   height: 500px;
@@ -28,20 +28,20 @@ body {
   background-size: cover;
 }
 
-.centrepage { 
-  width: 60%;
-  max-width: 800px;
+.centrepage {
+  width: 90%;
+  max-width: 1000px;
   height: auto;
   margin: auto;
   /*background-color: gray;*/
   background-color: rgb(170, 170, 170);
-  padding: 0px 120px;
+  /*padding: 0px 120px;*/
   overflow: auto;
   opacity: 1;
 }
 
 .centrepage-menu { 
-  /*width: 100%;*/
+  width: 100%;
   height: auto;
   margin: auto;
   background-color: #333;
